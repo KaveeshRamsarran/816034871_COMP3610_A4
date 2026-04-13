@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+
+# Version control
+.git/
+.gitignore
+
+# Data files (not needed in container)
+data/
+*.parquet
+*.csv
+
+# MLflow tracking data
+mlruns/
+
+# Environment files
+.env
+.venv/
+venv/
+
+# Jupyter notebooks and checkpoints
+*.ipynb
+.ipynb_checkpoints/
+
+# Documentation
+*.md
+
+# Test files (not needed in production container)
+test_*.py
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# pytest cache
+.pytest_cache/
